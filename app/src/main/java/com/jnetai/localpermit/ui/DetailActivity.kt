@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.jnetai.localpermit.LocalPermit
-import com.jnetai.localpermit.binding.ActivityDetailBinding
+import com.jnetai.localpermit.databinding.ActivityDetailBinding
 import com.jnetai.localpermit.model.Permit
 import kotlinx.coroutines.launch
 

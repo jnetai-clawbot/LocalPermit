@@ -9,7 +9,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.jnetai.localpermit.LocalPermit
 import com.jnetai.localpermit.R
-import com.jnetai.localpermit.binding.ActivityMainBinding
+import com.jnetai.localpermit.databinding.ActivityMainBinding
 import com.jnetai.localpermit.model.Permit
 import kotlinx.coroutines.launch
 
