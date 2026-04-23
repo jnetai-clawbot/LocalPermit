@@ -1,0 +1,4 @@
+-keep class com.jnetai.localpermit.data.** { *; }
+-keep class com.jnetai.localpermit.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
