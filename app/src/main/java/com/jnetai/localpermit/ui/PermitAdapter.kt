@@ -13,8 +13,8 @@ class PermitAdapter(private val onClick: (Permit) -> Unit) : RecyclerView.Adapte
     override fun getItemCount() = items.size
     override fun onBindViewHolder(h: VH, pos: Int) {
         val item = items[pos]
-        h.databinding.titleText.text = item.title
-        h.databinding.subtitleText.text = item.type + " · " + item.status
-        h.databinding.root.setOnClickListener { onClick(item) }
+        h.binding.titleText.text = item.title
+        h.binding.subtitleText.text = item.type + " · " + item.status
+        h.binding.root.setOnClickListener { onClick(item) }
     }
 }
